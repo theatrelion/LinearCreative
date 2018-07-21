@@ -1,0 +1,155 @@
+/***Base Styles***/
+Body {
+    font-family: 'Roboto', sans-serif;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+.half-width {
+    width: 50%;
+    float: left;
+}
+.third-width {
+    width: 33%;
+    float: left;
+}
+
+/*****HEADER STYLE*****/
+
+#header {
+    height: 600px;
+    background: url('../img/splat.jpg');
+    background-size: cover;
+    text-align: center;
+}
+#header h1 {
+    font-weight: lighter;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 100px;
+    color: #3c3b3b;
+    clear: both;
+}
+#header h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: #3c3b3b;
+}
+nav {
+    float: right;
+    padding: 25px 40px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #3c3b3b;
+    padding-left: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+/*****WORK STYLE*****/
+
+#work {
+    background-color: #19b7a6;
+    height: 1450px;
+}
+#work h3 {
+    padding: 50px 0;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 70px;
+    font-weight: lighter;
+    text-align: center;
+}
+#work .half-width {
+    float: left;
+    width: 50%;
+}
+#work p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fffdfd;
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+#jubilee {
+    float: left;
+    padding: 50px 0 50px 50px;
+    width: 80%;
+}
+#rogue {
+    float: left;
+    padding: 50px 0 100px 50px;
+    width: 80%;
+}
+#jubilee-text {
+    float: left;
+    padding: 50px 0 50px 0;
+    height: 350px;
+    width: 100%;
+}
+#rogue-text {
+    float: left;
+    padding: 50px 0 100px 0;
+    height: 350px;
+    width: 100%;
+}
+/*****ABOUT STYLE*****/
+#about .half-width {
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+#aboutimg {
+    padding: 100px 0 100px 100px;
+    width: 50%;
+}
+#about p {
+    font-size: 21px;
+    color: #3c3b3b; 
+    float: left;  
+    padding-top: 100px;
+}
+#about ul li {
+    font-size: 21px;
+    color: #3c3b3b; 
+}
+/***** CONTACT STYLE *****/
+
+#contact {
+    background: #f24586 ;
+    height: 400px;
+}
+#contact .full-width {
+    padding: 110px 0;
+    width: 100%;
+}
+#contact .third-width {
+    text-align: center;
+    font-size: 21px;
+    color: #fffdfd; 
+    width: 30%;
+}
+#contact p {
+    padding-top: 50px;
+}
+#logosm {
+    padding: 50px 0 100px 100px;
+    width: 50%;
+}
+#contact ul {
+    list-style: none;
+    padding-top: 50px;
+    text-decoration: none;
+}
